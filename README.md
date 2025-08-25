@@ -1,5 +1,6 @@
 # Book-s
 Lab3
+
 #Exercise 1
 
 ##Steps:
@@ -43,6 +44,7 @@ The Support Vector Machine (SVM) uses the parameter C to balance how strict the 
 •	RBF SVM also works, but a linear kernel is simpler and sufficient
 
 #Exercise 6
+
 Using Gini with max_depth=4, the tree gives an accuracy of around 0.95.
 Using Entropy with the same depth, the accuracy is similar.
 
@@ -53,6 +55,7 @@ Using Entropy with the same depth, the accuracy is similar.
  k=10: Model averages over more neighbors, smoother boundaries, underfitting if too large - may ignore local patterns.
 
 #Exercise 9
+
 Classifier	      Linear vs Nonlinear	Discussion
 Perceptron	      Linear	            Works best on linearly separable data, struggles on nonlinear
 Logistic Reg     	Linear	            Linear decision boundary, sensitive to feature scaling
@@ -63,6 +66,7 @@ KNN              	Both	Flexible      works well with local patterns; choice of k
 
 
 #Questions
+
 Regularization prevents overfitting by keeping the model simple. It adds a small penalty to big weights, so the model focuses on the main patterns instead of memorizing noise in the training data.
 Ensembles vs. simple models: Simple models are easy to understand and work well on small or clean data. Ensembles combine many models to improve accuracy and reduce errors, but they are harder to interpret. Use ensembles when you care more about performance than simplicity.
 
